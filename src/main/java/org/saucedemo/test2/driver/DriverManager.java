@@ -28,4 +28,9 @@ public class DriverManager {
         return driverManagerInstance;
     }
 
+    public void quitDriver() {
+        if (driver != null) {
+            driver.quit();
+        }
+    }
 }
